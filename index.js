@@ -2,7 +2,7 @@ const inputEl = document.getElementById("input");
 const outputEl = document.getElementById("results");
 const listItems = [];
 
-getDat();
+getData();
 
 inputEl.addEventListener("input", (e) => filterData(e.target.value));
 
